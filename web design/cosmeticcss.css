@@ -9,6 +9,14 @@
     background-color:#fef4df!important;
     
 }
+.navbar {
+  background-color: transparent !important;
+}
+.logo-img-n {
+  filter: brightness(0);
+}
+
+
 .power-products {
     padding: 84px 0px;
 }

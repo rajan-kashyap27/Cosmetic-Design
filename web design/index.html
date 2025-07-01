@@ -13,77 +13,56 @@
 </head>
 <body>
     <section class="lilac">
-      <nav class="navbar navbar-expand-sm  navbar-dark">
-        <div class="container-fluid">
-          <div class="logo-img-n">
-          <img src="logo-nav.svg" alt="">
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="logo-nav.svg" alt="Logo" style="height: 40px;">
+    </a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarIcons">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Right-Side Icons -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarIcons">
+      <div class="d-flex align-items-center gap-3">
+
+        <!-- Dropdown -->
+        <div class="dropdown dropstart">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            <img class="logo-img-n" src="nav-img.svg" alt="Menu" style="height: 24px;">
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-            </ul>
-          </div>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Option 1</a></li>
+            <li><a class="dropdown-item" href="#">Option 2</a></li>
+            <li><a class="dropdown-item" href="#">Option 3</a></li>
+          </ul>
         </div>
-         <form class="d-flex item-n">
-                    <div class="nav-img">
-                        <div class="dropdown dropstart text-end" id="navbarTogglerDemo02">
-                            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
-                              <span class="img-sv"><img src="nav-img.svg" alt=""></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Home</a></li>
-                              <li><a class="dropdown-item" href="#">About</a></li>
-                              <li><a class="dropdown-item" href="#">Shop</a></li>
-                              <li><a class="dropdown-item" href="#">Blog</a></li>
-                              <li><a class="dropdown-item" href="#">Gallery</a></li>
-                              <li><a class="dropdown-item" href="#">Pages</a></li>
-                            </ul>
-                          </div>
-                    </div>
-                    <div class="nav-img">
-                        <a href=""><span class="person"><img src="person.svg" alt=""></span></a>
-                    </div>
-                    <div class="nav-img">
-                        <a href=""><span class="person"><img src="shopping.svg" alt=""></span></a>
-                    </div>
-                    <div class="nav-img"><a href=""><span class="person"><img src="favourite.svg" alt=""></span></a></div>
-                </form>
-      </nav>
-                <!-- <form class="d-flex item-n">
-                    <div class="nav-img">
-                        <div class="dropdown dropstart text-end" id="#navbarTogglerDemo02">
-                            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
-                              <span class="img-sv"><img src="nav-img.svg" alt=""></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Home</a></li>
-                              <li><a class="dropdown-item" href="#">About</a></li>
-                              <li><a class="dropdown-item" href="#">Shop</a></li>
-                              <li><a class="dropdown-item" href="#">Blog</a></li>
-                              <li><a class="dropdown-item" href="#">Gallery</a></li>
-                              <li><a class="dropdown-item" href="#">Pages</a></li>
-                            </ul>
-                          </div>
-                    </div>
-                    <div class="nav-img">
-                        <a href=""><span class="person"><img src="person.svg" alt=""></span></a>
-                    </div>
-                    <div class="nav-img">
-                        <a href=""><span class="person"><img src="shopping.svg" alt=""></span></a>
-                    </div>
-                    <div class="nav-img"><a href=""><span class="person"><img src="favourite.svg" alt=""></span></a></div>
-                </form> -->
+
+        <!-- Person -->
+        <a href="#">
+          <img class="logo-img-n" src="person.svg" alt="Account" style="height: 24px;">
+        </a>
+
+        <!-- Cart -->
+        <a href="#">
+          <img class="logo-img-n" src="shopping.svg" alt="Cart" style="height: 24px;">
+        </a>
+
+        <!-- Favourite -->
+        <a href="#">
+          <img class="logo-img-n" src="favourite.svg" alt="Favourites" style="height: 24px;">
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
+
           <div class="container">
             <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 cl-md-12 col-sm-12 col-12">
